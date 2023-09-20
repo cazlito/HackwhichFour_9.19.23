@@ -16,8 +16,8 @@
 		74E865C52ABA602100C3C2D2 /* HackwhichFour_9_19_23Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E865C42ABA602100C3C2D2 /* HackwhichFour_9_19_23Tests.swift */; };
 		74E865CF2ABA602100C3C2D2 /* HackwhichFour_9_19_23UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E865CE2ABA602100C3C2D2 /* HackwhichFour_9_19_23UITests.swift */; };
 		74E865D12ABA602100C3C2D2 /* HackwhichFour_9_19_23UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E865D02ABA602100C3C2D2 /* HackwhichFour_9_19_23UITestsLaunchTests.swift */; };
-		74E865DE2ABA664C00C3C2D2 /* firstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E865DD2ABA664C00C3C2D2 /* firstVC.swift */; };
-		74E865E02ABA665D00C3C2D2 /* secondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E865DF2ABA665D00C3C2D2 /* secondVC.swift */; };
+		74E865E62ABA6B0600C3C2D2 /* firstVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E865E52ABA6B0600C3C2D2 /* firstVCViewController.swift */; };
+		74E865E82ABA9B4500C3C2D2 /* secondVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E865E72ABA9B4500C3C2D2 /* secondVCViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +51,8 @@
 		74E865CA2ABA602100C3C2D2 /* HackwhichFour_9.19.23UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackwhichFour_9.19.23UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E865CE2ABA602100C3C2D2 /* HackwhichFour_9_19_23UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwhichFour_9_19_23UITests.swift; sourceTree = "<group>"; };
 		74E865D02ABA602100C3C2D2 /* HackwhichFour_9_19_23UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwhichFour_9_19_23UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		74E865DD2ABA664C00C3C2D2 /* firstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstVC.swift; sourceTree = "<group>"; };
-		74E865DF2ABA665D00C3C2D2 /* secondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondVC.swift; sourceTree = "<group>"; };
+		74E865E52ABA6B0600C3C2D2 /* firstVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstVCViewController.swift; sourceTree = "<group>"; };
+		74E865E72ABA9B4500C3C2D2 /* secondVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondVCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,9 +106,9 @@
 				74E865AD2ABA601F00C3C2D2 /* AppDelegate.swift */,
 				74E865AF2ABA601F00C3C2D2 /* SceneDelegate.swift */,
 				74E865B12ABA601F00C3C2D2 /* ViewController.swift */,
-				74E865DD2ABA664C00C3C2D2 /* firstVC.swift */,
-				74E865DF2ABA665D00C3C2D2 /* secondVC.swift */,
 				74E865B32ABA601F00C3C2D2 /* Main.storyboard */,
+				74E865E72ABA9B4500C3C2D2 /* secondVCViewController.swift */,
+				74E865E52ABA6B0600C3C2D2 /* firstVCViewController.swift */,
 				74E865B62ABA602000C3C2D2 /* Assets.xcassets */,
 				74E865B82ABA602000C3C2D2 /* LaunchScreen.storyboard */,
 				74E865BB2ABA602000C3C2D2 /* Info.plist */,
@@ -265,9 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				74E865B22ABA601F00C3C2D2 /* ViewController.swift in Sources */,
-				74E865E02ABA665D00C3C2D2 /* secondVC.swift in Sources */,
-				74E865DE2ABA664C00C3C2D2 /* firstVC.swift in Sources */,
 				74E865AE2ABA601F00C3C2D2 /* AppDelegate.swift in Sources */,
+				74E865E82ABA9B4500C3C2D2 /* secondVCViewController.swift in Sources */,
+				74E865E62ABA6B0600C3C2D2 /* firstVCViewController.swift in Sources */,
 				74E865B02ABA601F00C3C2D2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
